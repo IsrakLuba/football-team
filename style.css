@@ -5,7 +5,7 @@
  ----------------------------------------------------------------------------------*/
  body{
     font-family: 'Poppins', sans-serif;
-    background-color: #e9f0f7;
+    background-color: #FFFFFF;
  }
 
  /* ---------------------------------------------------------------------------------
@@ -16,7 +16,7 @@
     display: flex;
     background-color: rgb(15 15 158);
     width: 100%;
-    height: 600px;
+    height: 670px;
 
  }
  .display-title{
@@ -30,6 +30,25 @@
      font-weight: 700px;
      color: #FFFFFF;
  }
+ .button:hover{
+     background-color: lawngreen;
+ }
+ .button{
+     display: flex;
+     width: 170px;
+     height: 44px;
+     background-color: #E02C6D;
+     align-items: center;
+     padding: 10px 20px;
+ }
+ .button p{
+     margin-right: 20px;
+     color: whitesmoke;
+ }
+ .fa-arrow-right{
+     color: whitesmoke;
+    
+ }
  .display-banner img{
     height: 438px;
     width: 556px;
@@ -39,7 +58,7 @@
  }
 
  /* ------------------------------------------------------------------------------------
-                                players-styl
+    ----------------------------players-style--------------------------------------------
     ----------------------------------------------------------------------------------- */
 
 .container{
@@ -75,10 +94,56 @@
     height: 256px;
 
 }
+/* match-style */
+
+.top-match{
+    display: flex;
+}
+.match-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 466px;
+    height: 309px;
+    margin-top: 224px;
+    margin-right: 69px;
+}
+.match img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+}
+
+/* footer-style */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 57px;
+    
+    
+}
+.footer img{
+    width: 400px;
+    height: 110px;
+    margin-top: 164px;
+    
+}
+.media-icon{
+    display: flex;
+}
+.icon{
+    height: 32px;
+    width: 32px;
+}
+
+
+
 
 /*  -------------------------------------------------------------------
 
-                          mobile-device
+    ---------------------mobile-device--------------------------------
 
     -------------------------------------------------------------------*/
 
@@ -94,7 +159,7 @@
 
         width: 100%;
 
-    }
+}
 
 .display-title{
 
@@ -103,7 +168,7 @@
         width: 100%;
 
         margin: 0;
- }
+}
 
 .display-banner img{
 
@@ -113,7 +178,7 @@
 
         margin: 0;
 
-    }
+}
    
 .players{
 
@@ -125,5 +190,5 @@
 
         justify-content: center;
 
-    }
+}
 }
